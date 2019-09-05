@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: RegistryServer
+
+server:
+  port: 8761
+  address: 0.0.0.0
+
+eureka:
+  server:
+    enableSelfPreservation: false
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false

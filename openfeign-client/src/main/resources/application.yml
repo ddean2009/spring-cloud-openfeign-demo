@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+feign:
+  httpclient:
+    enabled: true
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 5000
+  hystrix:
+    enabled: false
+
+#日志配置
+logging:
+  level:
+    com:
+      flydean: debug
