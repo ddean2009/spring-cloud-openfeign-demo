@@ -292,3 +292,5 @@ get请求url：  http://localhost:8000/getUserName1
 查看日志，看看输出吧。
 
 本项目代码地址 ：[spring-cloud-openfeign-demo](https://github.com/ddean2009/spring-cloud-openfeign-demo)
+
+更多教程请参考 [flydean的博客](www.flydean.com)
